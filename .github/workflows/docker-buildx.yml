@@ -41,7 +41,7 @@ jobs:
             --platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64 \
             --output "type=image,push=true" \
             --file Dockerfile \
-            --tag 774977/mynav:latest
+            --tag 774977/v2board:latest
             
     #- name: Docker Push
-    #  run: docker push 774977/mynav
+    #  run: docker push 774977/v2board
