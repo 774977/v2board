@@ -32,7 +32,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag 774977/mynav:latest
+      run: docker build . --file Dockerfile --tag 774977/v2board:latest
       
     - name: Docker Push
       run: docker push 774977/v2board
