@@ -35,4 +35,4 @@ jobs:
       run: docker build . --file Dockerfile --tag 774977/mynav:latest
       
     - name: Docker Push
-      run: docker push 774977/mynav
+      run: docker push 774977/v2board
